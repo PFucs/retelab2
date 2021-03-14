@@ -34,7 +34,7 @@ public class Main {
 			}
 			if(content instanceof Transition) {
 				Transition transition =(Transition) content;
-				System.out.printf("%s -> %s", transition.getSource().getName(), transition.getTarget().getName());
+				System.out.printf("%s -> %s\n", transition.getSource().getName(), transition.getTarget().getName());
 				
 			}
 		}
